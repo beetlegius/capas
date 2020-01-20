@@ -1,0 +1,16 @@
+---
+en:
+  activerecord:
+    attributes:
+      product:
+        name: Product name
+        price: Product price
+  activemodel:
+    attributes:
+      products_filter:
+        name: Filter by name
+        price: Filter by price
+  helpers:
+    submit:
+      products_filter:
+        create: Search

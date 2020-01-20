@@ -1,0 +1,3 @@
+<% flash.each do |kind, message| %>
+  <%= tag.div message, class: css_class_for(kind) %>
+<% end %>
